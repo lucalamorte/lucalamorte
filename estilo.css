@@ -67,7 +67,6 @@ nav{
 }
 .icono{
 	display: none;
-	padding: 0.5rem 1rem;
 }
 .enlaces{
 	display: flex;
@@ -109,7 +108,7 @@ nav{
 /*INICIO*/
 .inicio{
 	width: 100%;
-	height: 100vh;
+	height: 80vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -226,7 +225,7 @@ nav{
 section .wave{
 	width: 100%;
 	height: 143px;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	left: 0;
 	background: url(img/wave.png);
@@ -237,7 +236,7 @@ section .wave:before{
 	width: 100%;
 	height: 143px;
 	background: url(img/wave.png);
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	opacity: 0.4;
@@ -579,16 +578,12 @@ footer{
 		align-items: center;
 		height: 50px;
 		width: 50px;
-		font-size: 2.5rem;
 		z-index: 300;
 		border-radius: 10px;
 		margin: 0.3rem;
+		padding: .5rem;
 		cursor: pointer;
-		color: #fff;
 		background-color: var(--azul);
-	}
-	.icono span{
-		filter: drop-shadow(1px 1px #000);
 	}
 	.enlaces{
 		flex-direction: column;
