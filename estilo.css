@@ -55,9 +55,14 @@ nav{
 .logo{
 	background-color: var(--azul);
 	margin: .3rem;
+	padding: .5rem;
 	height: 50px;
 	width: 50px;
 	border-radius: 10px;
+}
+.logo a{
+	height: 34px;
+	width: 34px;
 }
 .logo img:hover{
 	transition: .5s;
@@ -108,7 +113,7 @@ nav{
 /*INICIO*/
 .inicio{
 	width: 100%;
-	height: 80vh;
+	height: 87vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -225,11 +230,7 @@ nav{
 section .wave{
 	width: 100%;
 	height: 143px;
-<<<<<<< HEAD
 	position: relative;
-=======
-	position: static;
->>>>>>> daa1b63ced908e0a040c255b741d1d7ad4994869
 	bottom: 0;
 	left: 0;
 	background: url(img/wave.png);
@@ -240,11 +241,7 @@ section .wave:before{
 	width: 100%;
 	height: 143px;
 	background: url(img/wave.png);
-<<<<<<< HEAD
-	position: relative;
-=======
-	position: static;
->>>>>>> daa1b63ced908e0a040c255b741d1d7ad4994869
+	position: absolute;
 	top: 0;
 	left: 0;
 	opacity: 0.4;
@@ -296,6 +293,9 @@ section .wave:before{
 .cv_button{
 	margin: 1.5rem 0;
 	width: 160px;
+}
+.texto_button-mobile{
+	display: none;
 }
 /*HABILIDADES*/
 .habilidades__container{
@@ -567,9 +567,9 @@ footer{
 	}
 }
 /*NAV RESPONSIVE*/
-@media screen and (max-width: 750px){
+@media screen and (max-width: 768px){
 	*{
-		scroll-margin-top: 70px;
+		scroll-margin-top: 60px;
 	}
 	nav{
 		flex-direction: column;
@@ -610,5 +610,25 @@ footer{
 	}
 	.dos{
 		clip-path: circle(150.0% at 100% 0%);
+	}
+	.texto_button{
+		display: none;}
+	.texto_button-mobile{
+		display: block;
+	}
+	.texto_button-mobile b{
+		color: var(--azul);
+	}
+	.texto_button-mobile{
+		font-size: 1.15rem;
+	}
+	.cv_button{
+		font-size: 1.15rem;
+		padding: 5px;
+		margin: auto;
+		width: 50%;
+	}
+	.sobremi__items img{
+		height: 47vh;
 	}
 }
