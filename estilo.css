@@ -225,7 +225,11 @@ nav{
 section .wave{
 	width: 100%;
 	height: 143px;
+<<<<<<< HEAD
 	position: relative;
+=======
+	position: static;
+>>>>>>> daa1b63ced908e0a040c255b741d1d7ad4994869
 	bottom: 0;
 	left: 0;
 	background: url(img/wave.png);
@@ -236,7 +240,11 @@ section .wave:before{
 	width: 100%;
 	height: 143px;
 	background: url(img/wave.png);
+<<<<<<< HEAD
 	position: relative;
+=======
+	position: static;
+>>>>>>> daa1b63ced908e0a040c255b741d1d7ad4994869
 	top: 0;
 	left: 0;
 	opacity: 0.4;
