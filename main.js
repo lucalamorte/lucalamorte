@@ -40,3 +40,17 @@ menuBtn.addEventListener('click', () => {
 		menuOpen = false;
 	}
 });
+
+/*Animación: menú hamburguesa que se transforma en X 2*/
+for (var i = 0 ; i < enlace.length; i++){
+	enlace[i].addEventListener('click', function(){
+		if (menuOpen != true){
+			menuBtn.classList.add('open');
+			menuOpen = true;
+		}
+		else{
+			menuBtn.classList.remove('open');
+			menuOpen = false;
+		}
+	})
+};
