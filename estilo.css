@@ -30,7 +30,6 @@ body{
 }
 ::-webkit-scrollbar-thumb{
 	background: var(--azul);
-	border-radius: 50px;
 }
 /*AUTOCOMPLETAR*/
 input:-webkit-autofill,
@@ -45,8 +44,8 @@ input:-webkit-autofill {
 /*NAV*/
 nav{
 	width: 100%;
-	display: flex;
 	background-color: rgba(255, 255, 255, .8);
+	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	position: fixed;
@@ -139,6 +138,7 @@ nav{
 	border-radius: 10px;
 	padding: 5px;
 }
+/*INICIO - Animación: máquina de escribir*/
 .maquina-escribir{
 	float: left;
 	color: #fff;
@@ -168,6 +168,7 @@ nav{
 		border-left: transparent;
 	}
 }
+/**/
 .contact_button{
 	display: flex;
 	justify-content: center;
@@ -580,6 +581,10 @@ footer{
 		align-items: center;
 		justify-content: space-between;
 	}
+	.inicio{
+		height: 80vh;
+	}
+	/*Menu hamburguesa*/
 	.icono{
 		display: flex;
 		justify-content: center;
@@ -593,6 +598,39 @@ footer{
 		cursor: pointer;
 		background-color: var(--azul);
 	}
+	.icono-btn{
+		height: 4px;
+		width: 34px;
+		background-color: #fff;
+		transition: all .5s ease-in-out;
+	}
+	.icono-btn::before,
+	.icono-btn::after{
+		content: '';
+		position: absolute;
+		width: 34px;
+		height: 4px;
+		background-color: #fff;
+		transition: all .5s ease-in-out;
+	}
+	.icono-btn::before{
+		transform: translateY(-12px);
+	}
+	.icono-btn::after{
+		transform: translateY(12px);
+	}
+	/*Menu hamburguesa - Animación*/
+	.icono.open .icono-btn{
+		transform: translateX(-50px);
+		background-color: transparent;
+	}
+	.icono.open .icono-btn::before{
+		transform: rotate(45deg) translate(35px, -35px);
+	}
+	.icono.open .icono-btn::after{
+		transform: rotate(-45deg) translate(35px, 35px);
+	}
+	/**/
 	.enlaces{
 		flex-direction: column;
 		position: fixed;
@@ -610,6 +648,10 @@ footer{
 	}
 	.dos{
 		clip-path: circle(150.0% at 100% 0%);
+	}
+	.contact_button{
+		width: auto;
+		font-size: 1.1rem;
 	}
 	.texto_button{
 		display: none;}
