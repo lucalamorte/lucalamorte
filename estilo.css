@@ -31,6 +31,9 @@ body{
 ::-webkit-scrollbar-thumb{
 	background: var(--azul);
 }
+body{
+   overflow-x: hidden;
+}
 /*AUTOCOMPLETAR*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -310,16 +313,20 @@ section .wave:before{
 }
 .habilides__secciones{
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
+	justify-content: space-around;
 	padding: 2rem;
+	padding-top: 0;
 }
 .habilidad{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	cursor: pointer;
-	transition: .3s ease-out;
+	transition: .3s;
+	height: 7rem;
+	width: 7rem;
+	margin: .5rem;
 }
 .habilidad:hover{
 	filter: drop-shadow(0 0 15px #fff);
@@ -329,7 +336,7 @@ section .wave:before{
 	height: 3em;
 }
 .habilidad p{
-	margin: 1rem;
+	margin-top: .5rem;
 	color: #fff;
 	background-color: rgba(0, 0, 0, .5);
 	padding: 5px;
@@ -353,18 +360,13 @@ section .wave:before{
 	width: 100%;
 	justify-content: center;
 	align-items: center;
+	padding: 1rem;
 }
 .proyecto img{
 	border-radius: 10px;
 }
 .proyecto a{
-	width: 90%;
-	transition: .3s ease-in-out;
 	z-index: -2;
-}
-.proyecto a:hover{
-	width: 93%;
-	transition: .3s ease-in-out;
 }
 /*CONTACTO*/
 .contacto__container{
@@ -491,7 +493,6 @@ footer{
 	/*SOBRE MI*/
 	.sobremi__container{
 		align-items: center;
-		height: 75vh;
 	}
 	.sobremi__items{
 		flex-direction: row;
@@ -507,12 +508,8 @@ footer{
 		align-items: center;
 	}
 	/*HABILIDADES*/
-	.habilidades__container{
-		height: 75vh;
-	}
 	/*PROYECTOS*/
 	.proyectos__container{
-		height: 75vh;
 		display: flex;
 		justify-content: space-evenly;
 		flex-direction: column;
@@ -527,7 +524,7 @@ footer{
 		transition: 0.3s;
 	}
 	.proyecto img:hover{
-		transform: scale(1.1);
+		transform: scale(1.03);
 		transition: 0.3s;
 	}
 }
@@ -541,22 +538,12 @@ footer{
 		font-size: 1.3rem;
 	}
 	/*HABILIDADES*/
-	.habilides__secciones{
-		width: 80%;
-	}
 	/*PROYECTO*/
 	.proyecto a{
 		width: 30%;
 	}
 	.proyecto a:hover{
 		width: 30%;
-	}
-	.proyecto img{
-		transition: 0.3s;
-	}
-	.proyecto img:hover{
-		transform: scale(1.1);
-		transition: 0.3s;
 	}
 }
 @media (min-width: 2560px){
@@ -670,7 +657,12 @@ footer{
 		margin: auto;
 		width: 50%;
 	}
-	.sobremi__items img{
-		height: 47vh;
+	.proyecto a{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 425px){
+	.texto_button{
+		padding: .3rem;
 	}
 }
