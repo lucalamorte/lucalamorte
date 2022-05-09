@@ -31,9 +31,12 @@ body{
 ::-webkit-scrollbar-thumb{
 	background: var(--azul);
 }
+}
+/*
 body{
    overflow-x: hidden;
 }
+*/
 /*AUTOCOMPLETAR*/
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -469,9 +472,6 @@ footer{
 	.contact_button{
 		font-size: 1.2rem;
 	}
-	.sobremi__items img{
-		height: 50vh;
-	}
 }
 @media (min-width: 768px){
 	.inicio__items{
@@ -569,7 +569,7 @@ footer{
 		justify-content: space-between;
 	}
 	.inicio{
-		height: 80vh;
+		height: 84vh;
 	}
 	/*Menu hamburguesa*/
 	.icono{
