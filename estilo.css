@@ -652,10 +652,10 @@ footer{
 		font-size: 1.15rem;
 	}
 	.cv_button{
-		font-size: 1.15rem;
-		padding: 5px;
+		font-size: 1.1rem;
+		padding: 10px;
 		margin: auto;
-		width: 50%;
+		width: 60%;
 	}
 	.proyecto a{
 		width: 80%;
