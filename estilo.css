@@ -124,6 +124,7 @@ nav{
 	flex-direction: column;
 	justify-content: space-evenly;
 	position: relative;
+	padding-top: 10rem;
 }
 .inicio p{
 	color: var(--gris);
@@ -652,18 +653,16 @@ footer{
 		font-size: 1.15rem;
 	}
 	.cv_button{
-		font-size: 1.1rem;
-		padding: 10px;
+		font-size: 1.15rem;
+		padding: 5px;
 		margin: auto;
-		width: 60%;
+		width: 50%;
 	}
 	.proyecto a{
 		width: 80%;
 	}
 }
 @media screen and (max-width: 425px){
-	.proyecto a{
-		width: auto;
 	.texto_button{
 		padding: .3rem;
 	}
