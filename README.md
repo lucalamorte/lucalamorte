@@ -6,7 +6,7 @@ Here are some things about me:
 
 - 🔭 I’m currently working for Kimberly Clark, as IT Trainee, for the DTS/ HR, R&E & Legal Area.
 
-- 🌱 I’m learning about RPA tools, web developement and many more this in college!
+- 🌱 I’m learning about RPA tools, web developement, data bases and many more this in college!
 
 - 🔧 I'm always improving my english.
 
