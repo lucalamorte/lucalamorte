@@ -10,7 +10,7 @@ Here are some things about me:
 
 - 🔧 I'm always improving my english.
 
-- 🎸 I love playing guitar and do different types of sports.
+- 🎸 I love playing guitar and do different sports.
 
 - 📫 How to reach me: lclamorte@gmail.com or https://www.linkedin.com/in/lclamorte/?locale=en_US
 
