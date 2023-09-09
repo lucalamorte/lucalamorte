@@ -4,7 +4,7 @@ My name is Luca and I'm from Argentina 💙🤍
 
 Here are some things about me:
 
-- 🔭 I’m currently working for Kimberly Clark, as IT Trainee, for the DTS/ HR, R&E & Legal Areas.
+- 🔭 I’m currently working for Kimberly Clark, as Functional Engineer, for the Manufacturing Area.
 
 - 🌱 I’m learning about RPA tools, web developement, data bases and many more this in college!
 
