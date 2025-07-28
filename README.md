@@ -1,25 +1,29 @@
-Hi there 👋
+# Luca Lamorte
 
-My name is Luca and I'm from Argentina 🧉
+I'm a Data & Crypto engineer from Argentina.
 
-Here are some things about me:
+Working at **Kimberly-Clark**, building digital solutions for global manufacturing.  
+Studying **IT & Data Science** at UADE (graduating 2025).
 
-- 🔭 I’m currently working for Kimberly Clark, as a Functional Engineer, for the Manufacturing Area.
+### Focus areas
 
-- 🌱 I’m learning about RPA tools, web development, databases, and many more in college!
+- 🔍 **On-chain Analytics**  
+  Tracking token flows, whale activity, and protocol health using Dune & Web3 tools.
 
-- 🔧 I'm always improving my English. Communication skills are the most important!
+- 📊 **Predictive Modeling**  
+  Building machine learning pipelines with Python, scikit-learn, and real-time dashboards.
 
-- 📫 How to reach me: lclamorte@gmail.com or https://www.linkedin.com/in/lclamorte/?locale=en_US
+- ⚡ **Automation & Monitoring**  
+  Streamlining decision-making with crypto simulations and data apps (Streamlit, APIs).
 
-Skills 💻
+### Stack
 
-- HTML, CSS, JavaScript.
+`Python` · `SQL` · `JavaScript`  
+`scikit-learn` · `Pandas` · `Streamlit` · `React Native`  
+`Dune` · `Flipside Crypto` · `Web3.py` · `ethers.js`  
+`Git` · `Jupyter` · `VSCode`
 
-- Python.
+### Contact
 
-- SQL.
-
-- Photoshop, VEGAS Pro, Figma.
-
-- Service Now.
+📬 lclamorte@gmail.com  
+🌐 [linkedin.com/in/lclamorte](https://www.linkedin.com/in/lclamorte/?locale=en_US)
