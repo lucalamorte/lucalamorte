@@ -3,6 +3,7 @@
 I'm a Data Engineer from Argentina.
 
 Working at **Kimberly-Clark**, building scalable data solutions for marketing analytics, automation, and cloud platforms.
+
 Management Information Systems student at UADE.
 
 ### Focus areas
