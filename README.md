@@ -1,26 +1,26 @@
 # Luca Lamorte
 
-I'm a Data & Crypto engineer from Argentina.
+I'm a Data Engineer from Argentina.
 
-Working at **Kimberly-Clark**, building digital solutions for global manufacturing.  
-Studying **IT & Data Science** at UADE (graduating 2025).
+Working at **Kimberly-Clark**, building scalable data solutions for marketing analytics, automation, and cloud platforms.
+Management Information Systems student at UADE.
 
 ### Focus areas
 
-- 🔍 **On-chain Analytics**  
-  Tracking token flows, whale activity, and protocol health using Dune & Web3 tools.
+- 📊 **Data Engineering**  
+Building scalable data pipelines and analytics workflows with Python, SQL, and cloud platforms.
 
-- 📊 **Predictive Modeling**  
-  Building machine learning pipelines with Python, scikit-learn, and real-time dashboards.
+- 📈 **Marketing Analytics**  
+Transforming marketing data into reliable reporting, insights, and decision-ready datasets.
 
 - ⚡ **Automation & Monitoring**  
-  Streamlining decision-making with crypto simulations and data apps (Streamlit, APIs).
+Streamlining processes with APIs, data apps, and automated workflows.
 
 ### Stack
 
-`Python` · `SQL` · `JavaScript`  
-`scikit-learn` · `Pandas` · `Streamlit` · `React Native`  
-`Dune` · `Flipside Crypto` · `Web3.py` · `ethers.js`  
+`Python` · `SQL` · `Snowflake`  
+`Pandas` · `scikit-learn` · `Streamlit` · `Power BI`  
+`AWS` · `Azure` · `GCP` · `APIs`  
 `Git` · `Jupyter` · `VSCode`
 
 ### Contact
