@@ -8,20 +8,23 @@ Information Systems Management, UADE.
 
 ### Products I build
 
-| | |
-|---|---|
-| [**PrimeroLab**](https://github.com/lucalamorte/primerolab-overview) | A study app where every answer is graded and what went worst comes back first. Next.js, Supabase, pgvector, a tool-calling agent. [primerolab.com](https://primerolab.com) |
-| [**Nutrigordo**](https://github.com/lucalamorte/nutrigordo-overview) | A nutrition assistant in Telegram: meals by text, photo or voice, numbers a nutritionist can trust. Python, FastAPI, OpenAI, Supabase. |
-| [**DataChinchilla**](https://github.com/lucalamorte/datachinchilla-overview) | Free study paths into 14 tech roles, built from the best free courses, with a path from your CV. [datachinchilla.com](https://datachinchilla.com) |
+**PrimeroLab** · [Open the app](https://primerolab.com) · [Overview](https://github.com/lucalamorte/primerolab-overview)  
+A study app where every answer is graded and what went worst comes back first. Next.js, Supabase, pgvector, a tool-calling agent.
+
+**Nutrigordo** · [Try the demo](https://food-tracker-backend-cr8c.onrender.com/) · [Overview](https://github.com/lucalamorte/nutrigordo-overview)  
+A nutrition assistant in Telegram: meals by text, photo or voice, numbers a nutritionist can trust. Python, FastAPI, OpenAI, Supabase.
+
+**DataChinchilla** · [Open the site](https://datachinchilla.com) · [Overview](https://github.com/lucalamorte/datachinchilla-overview)  
+Free study paths into 14 tech roles, built from the best free courses, with a path from your CV.
 
 The code of these products is private. Each link goes to an overview with the architecture, the numbers and screenshots.
 
 ### Stack
 
-`Snowflake` · `dbt` · `SQL` · `Python`
-`Snowflake Cortex` · `OpenAI` · `Gemini` · `pgvector`
-`AWS` · `Azure` · `GCP` · `Airflow`
-`Next.js` · `TypeScript` · `FastAPI` · `Supabase`
+`Snowflake` · `dbt` · `SQL` · `Python`  
+`Snowflake Cortex` · `OpenAI` · `Gemini` · `pgvector`  
+`AWS` · `Azure` · `GCP` · `Airflow`  
+`Next.js` · `TypeScript` · `FastAPI` · `Supabase`  
 
 ### Contact
 
