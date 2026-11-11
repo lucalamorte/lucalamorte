@@ -8,16 +8,16 @@ Information Systems Management, UADE.
 
 ### Products I build
 
-**PrimeroLab** · [Open the app](https://primerolab.com) · [Overview](https://github.com/lucalamorte/primerolab-overview)  
+**PrimeroLab** · [Open the app](https://primerolab.com) · [Case study](https://lucalamorte.github.io/projects/primerolab.html)  
 A study app where every answer is graded and what went worst comes back first. Next.js, Supabase, pgvector, a tool-calling agent.
 
-**Nutrigordo** · [Try the demo](https://food-tracker-backend-cr8c.onrender.com/) · [Overview](https://github.com/lucalamorte/nutrigordo-overview)  
+**Nutrigordo** · [Try the demo](https://food-tracker-backend-cr8c.onrender.com/) · [Case study](https://lucalamorte.github.io/projects/nutrigordo.html)  
 A nutrition assistant in Telegram: meals by text, photo or voice, numbers a nutritionist can trust. Python, FastAPI, OpenAI, Supabase.
 
-**DataChinchilla** · [Open the site](https://datachinchilla.com) · [Overview](https://github.com/lucalamorte/datachinchilla-overview)  
+**DataChinchilla** · [Open the site](https://datachinchilla.com) · [Case study](https://lucalamorte.github.io/projects/datachinchilla.html)  
 Free study paths into 14 tech roles, built from the best free courses, with a path from your CV.
 
-The code of these products is private. Each link goes to an overview with the architecture, the numbers and screenshots.
+The code is private. Each case study shows the architecture, the numbers and the decisions behind them, and the code is available on request.
 
 ### Stack
 
